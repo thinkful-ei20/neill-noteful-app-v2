@@ -13,6 +13,9 @@ const knex = require('../knex');
 
 
 
+
+
+
 // Get All (and search by query)
 router.get('/notes', (req, res, next) => {
     const searchTerm = req.query.searchTerm;
